@@ -237,15 +237,6 @@ export const cv = {
             'Application de gestion pour une petite entreprise de services : tableau de bord financier (revenus et charges), suivi des prestations et fiches clients. Données reprises depuis Excel, graphiques SVG dessinés sans bibliothèque, petit serveur local en Python qui enregistre chaque modification dans un fichier JSON. Conçue avec Claude Code.',
           tags: ['JavaScript', 'Python', 'SVG', 'Claude Code'],
         },
-        {
-          name: 'Ce site — CV en ligne',
-          context: 'Site statique bilingue',
-          description:
-            'CV bilingue en Vue 3, Vite et Tailwind CSS. Tout le contenu vit dans un seul fichier de données ; le PDF téléchargeable est généré à partir de cette même source, pour que le site et le CV ne divergent jamais. Construit avec Claude Code.',
-          tags: ['Vue 3', 'Vite', 'Tailwind CSS', 'Claude Code'],
-          link: 'https://github.com/anaisfrn/curriculum',
-          pdf: false, // inutile dans le PDF : le lecteur n’est pas sur le site
-        },
       ],
     },
     education: {
@@ -530,15 +521,6 @@ export const cv = {
           description:
             'Management app for a small service business: financial dashboard (revenue and expenses), service tracking and client records. Data migrated from Excel, hand-drawn SVG charts with no library, and a small local Python server that saves every change to a JSON file. Built with Claude Code.',
           tags: ['JavaScript', 'Python', 'SVG', 'Claude Code'],
-        },
-        {
-          name: 'This Site — Online CV',
-          context: 'Bilingual static site',
-          description:
-            'Bilingual CV built with Vue 3, Vite and Tailwind CSS. All content lives in a single data file, and the downloadable PDF is generated from that same source so the site and the CV never drift apart. Built with Claude Code.',
-          tags: ['Vue 3', 'Vite', 'Tailwind CSS', 'Claude Code'],
-          link: 'https://github.com/anaisfrn/curriculum',
-          pdf: false, // inutile dans le PDF : le lecteur n’est pas sur le site
         },
       ],
     },

@@ -38,7 +38,12 @@ defineProps({ t: { type: Object, required: true } })
     >
       {{ t.projects.sideTitle }}
     </h3>
-    <div v-if="t.projects.sideItems?.length" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <!-- Trois colonnes seulement à partir de trois projets : à deux, elles laisseraient un vide. -->
+    <div
+      v-if="t.projects.sideItems?.length"
+      class="grid gap-4 sm:grid-cols-2"
+      :class="{ 'lg:grid-cols-3': t.projects.sideItems.length >= 3 }"
+    >
       <component
         :is="item.link ? 'a' : 'div'"
         v-for="item in t.projects.sideItems"

@@ -49,5 +49,5 @@ tracked file.
   - Desjardins (current): mostly functional analysis, occasional development.
   - Web3 / Solidity are listed as notions only.
   - No invented figures: no team sizes, volumes or percentages unless the owner provides them.
-- **Personal projects:** the management dashboard keeps its generic description ("a small service business") and its repository is private — never link it. The workout tracker and this site link to their public repositories.
+- **Personal projects:** the management dashboard keeps its generic description ("a small service business") and its repository is private — never link it. The workout tracker links to its public repository. The site itself is not listed as a project (owner's decision).
 - **Education:** most recent first. The ÉTS entry uses the exact title from the owner's attestation of participation (20–22 May 2026, 14 hours, 1.4 UEC); the English title is a translation of it.
