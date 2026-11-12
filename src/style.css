@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Mode sombre piloté par la classe .dark sur <html> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Pile système : SF Pro sur Apple, Segoe/Roboto ailleurs */
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", ui-sans-serif,
+    system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgb(37 99 235 / 0.2);
+}

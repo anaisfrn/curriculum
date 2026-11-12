@@ -1,0 +1,11 @@
+node_modules
+dist
+.DS_Store
+*.local
+
+# Anciens CV et documents sources (ne pas publier)
+/*.pdf
+/*.docx
+
+# Notes privées pour Claude Code (ne pas publier)
+CLAUDE.local.md

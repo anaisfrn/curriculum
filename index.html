@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anaïs Ferron · Analyste fonctionnelle &amp; développeuse full-stack</title>
+    <meta
+      name="description"
+      content="Anaïs Ferron — Analyste fonctionnelle et développeuse full-stack. Depuis 2018 : Java/Spring, Vue et Angular, puis analyse fonctionnelle chez Desjardins. User stories, maquettes, API, agilité et IA au quotidien."
+    />
+    <link rel="canonical" href="https://anaisfrn.github.io/curriculum/" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
+
+    <!-- Open Graph / partage (LinkedIn, Slack, iMessage…) -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:url" content="https://anaisfrn.github.io/curriculum/" />
+    <meta property="og:site_name" content="Anaïs Ferron — CV" />
+    <meta property="og:title" content="Anaïs Ferron · Analyste fonctionnelle &amp; développeuse full-stack" />
+    <meta
+      property="og:description"
+      content="Je fais le pont entre le métier et le code : sept ans de développement full-stack Java/Spring, Vue et Angular, puis l’analyse fonctionnelle chez Desjardins. Agilité et IA au quotidien."
+    />
+    <meta property="og:image" content="https://anaisfrn.github.io/curriculum/og-card.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="fr_CA" />
+    <meta property="og:locale:alternate" content="en_CA" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Anaïs Ferron · Analyste fonctionnelle &amp; développeuse full-stack" />
+    <meta
+      name="twitter:description"
+      content="Je fais le pont entre le métier et le code : développement full-stack Java/Spring, Vue et Angular, analyse fonctionnelle, agilité et IA au quotidien."
+    />
+    <meta name="twitter:image" content="https://anaisfrn.github.io/curriculum/og-card.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Anaïs Ferron",
+        "jobTitle": "Analyste fonctionnelle & développeuse full-stack",
+        "url": "https://anaisfrn.github.io/curriculum/",
+        "image": "https://anaisfrn.github.io/curriculum/og-card.png",
+        "sameAs": [
+          "https://www.linkedin.com/in/ana%C3%AFs-ferron-91783712a/",
+          "https://github.com/anaisfrn"
+        ],
+        "address": { "@type": "PostalAddress", "addressRegion": "QC", "addressCountry": "CA" },
+        "knowsLanguage": ["fr", "en"],
+        "knowsAbout": [
+          "Functional analysis", "User stories", "Product ownership", "Scrum", "Java", "Spring Boot", "Kotlin",
+          "TypeScript", "Vue.js", "Angular", "React", "REST APIs", "Figma", "GitHub Copilot", "Claude Code"
+        ]
+      }
+    </script>
+    <script>
+      // Applique le thème et la langue avant le premier rendu pour éviter le flash
+      const t = localStorage.getItem('theme')
+      if (t === 'dark' || (!t && matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark')
+      }
+      if (localStorage.getItem('lang') === 'en') document.documentElement.lang = 'en'
+    </script>
+  </head>
+  <body class="bg-white antialiased dark:bg-neutral-950">
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
